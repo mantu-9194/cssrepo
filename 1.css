@@ -1,0 +1,12 @@
+b{
+    border: brown;
+}
+.box{
+    border: 2px solid red;
+    height: 100px;
+    width: 50px;
+    background-color:wheat;
+    position: absolute;
+    border-radius: 50%;
+    margin: 50px;
+}

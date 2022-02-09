@@ -1,0 +1,34 @@
+p{
+    color: black;
+    background-color: grey;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color: black;
+    background-color: blanchedalmond;
+}
+body{
+    background-color:black;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+p{
+
+    padding: 50px;
+    width: fit-content;
+
+}
+p{
+    border-style: solid;
+    border-width: thick;
+border-width: 20px;
+border-color: rgb(160, 40, 40);   
+border-radius: 20px;
+font-size: 20px;
+
+}
