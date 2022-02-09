@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ .main{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: black;
+ }    
+ .last{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: black;
+ }    
+     
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    justify-content: center;
+
+}
+.container2{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    justify-content: center;
+}
+.container3{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    justify-content: center;
+}
+.container4{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    justify-content: center;
+}
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 30px;
+    animation-name: mantu;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    transition: all 1s ease-in-out;
+
+    
+}
+@keyframes  mantu{
+  from{
+      
+      transform: skewX(-45deg);
+      
+
+  }
+   to{
+       transform: skewX(45deg);
+       
+   }
+}
+
+
+
+
+
+.item2{
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    margin: 30px;
+    animation-name: mantu2;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    transition: all 1s ease-in-out;
+    
+    
+
+    
+    
+
+
+}
+@keyframes  mantu2{
+  from{
+      
+      transform: skewY(35deg);
+      
+      
+    
+      
+
+  }
+   to{
+       transform: skewY(-35deg);
+       
+       
+   }
+}
+.item3{
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    margin: 30px;
+    animation-name: mantu3;
+    animation-iteration-count: infinite;
+    animation-iteration-count: 2s;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    transition: all 1s ease-in-out;
+    
+    
+}
+@keyframes mantu3{
+    form{
+        
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.item4{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    margin: 30px;
+    animation-name: mantu4;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition: all 1s ease-in-out;
+
+}
+@keyframes mantu4{
+    from{
+        transform: scaleY(0.5);
+
+
+    }
+    to{
+        transform: scaleY(1);
+    }
+}
+
+.item5{
+
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 30px;
+    animation-name: mantu5;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    transition: all 1s ease-in-out;
+ 
+}
+@keyframes mantu5{
+    from{
+        
+        transform: scaleX(0.5);
+        
+
+    }
+    to{
+         transform: scalex(1); 
+          
+     
+    }
+}
+.item6{
+    height: 100px;
+    width: 100px;
+    background-color:seagreen;
+    margin: 30px;
+    animation-name: mantu6;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    transition: all 0.5 ease-in-out;
+
+}
+
+@keyframes mantu6{
+    from{
+        transform: rotate(0deg);
+        
+
+    }
+    to{
+        transform: rotate(270deg);
+        
+    
+    }
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="main"><h1>Try To Replicate this</h1></div>
+    <div class="container">
+     <div class="item"></div>
+     <div class="item"></div>
+     <div class="item"></div>
+     </div>
+
+
+     <div class="container2">
+     <div class="item2"></div>
+     <div class="item2"></div>
+     <div class="item2"></div>
+</div>
+
+<div class="container3">
+     <div class="item3"></div>
+     <div class="item3"></div>
+     <div class="item3"></div>
+     </div>
+
+
+     <div class="container4">
+     <div class="item4"></div>
+     <div class="item5"></div>
+     <div class="item6"></div>
+     </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <a href="cssassessement5.html">
+    <div class="last"><h2>Let's Go and Try Another Things</h2></div></a>
+</body>
+</html>

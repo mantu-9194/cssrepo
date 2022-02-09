@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+
+
+
+
+
+
+
+
+
+
+.mantu{
+    height: 95vh;
+    width: 2000px;
+    background-image: url(sky.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    
+
+}
+.road{
+    height: 200px;
+    width: 400%;
+    background-image: url(road.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    animation:  road 5s linear infinite;
+
+}
+@keyframes road{
+    100%{
+        transform: translateX(-3400px);
+    
+}
+}
+
+
+
+
+
+.car{
+background-image: url(car3.png);
+height: 500px;
+width: 500px;
+background-repeat: no-repeat;
+position: absolute;
+margin-top: 250px;
+z-index: 2;
+margin-left: 350px;
+
+
+
+
+}
+.wheel{
+    position: absolute;
+    z-index: 4;
+    margin-left: 30.7%;
+    margin-top: 25%;
+    animation:  wheel 1s linear infinite;
+    animation-duration: 0.5s;
+}
+@keyframes wheel{
+    100%{
+        transform: rotate(360deg);
+    }
+
+    
+}
+
+
+
+
+
+.wheels{
+    position: absolute;
+    z-index: 4;
+    margin-left: 46.7%;
+    margin-top:25% ;
+    animation:  wheels 1s linear infinite;
+    animation-duration: 0.5s;
+}
+@keyframes wheels{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+.build{
+    
+
+    position: absolute;
+    animation: build 20s linear infinite ;
+    background-repeat: repeat;
+    
+    
+
+}
+
+@keyframes build{
+    100%{
+        transform: translateX(-500px);
+        animation-duration: 2s;
+        
+        
+    }
+}
+
+.sun{
+    position: absolute;
+    margin-left: 90%;
+    animation: sun 40s linear infinite;
+    margin-top: 40px;
+
+    
+}
+@keyframes sun{
+    100%{
+        transform: translateX(-500px);
+        animation-duration: 0.5s;
+    }
+}
+
+.h1{
+    position: absolute;
+    display: flex;
+    margin-left: 17%;
+    z-index: 5;
+    margin-top: 3px;
+    background-color: orange;
+}
+
+.h2{
+    position: absolute;
+    display: flex;
+    margin-left: 24%;
+    z-index: 5;
+    margin-top: 3px;
+    background-color: white;
+}
+
+
+.h3{
+
+    position: absolute;
+    display: flex;
+    margin-left: 38%;
+    z-index: 6;
+    margin-top: 3px;
+    background-color: green;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="cont">
+    <div class="mantu"><h1 class="h1">HAPPY</h1> <h1 class="h2">INDEPENDENCE</h1> <h1 class="h3">DAY</h1></div>
+    <div class="road"></div>
+    <div class="build"><img src="build3.png"height="320px" width="2000px"></div>
+    
+    <div class="car" ></div>
+    <div class="wheel" ><img src="wheels.png" height="60px" width="60px"></div>
+    <div class="wheels" ><img src="wheel6.png" height="56px" width="58px"></div>
+    <div class="sun"><img src="sun.png" height="56px" width="58px"></div>
+    </div>
+</body>
+</html>
